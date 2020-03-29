@@ -74,6 +74,8 @@ while ! /usr/sbin/i2cget -f -y 0 0x20 0 2> /dev/null > /dev/null
 do
 	echo 0 > /sys/class/gpio/gpio149/value
 	echo 1 > /sys/class/gpio/gpio149/value
+	echo "Unable to contact Senoko, resetting it... (waiting 10 seconds)"
+	sleep 10
 done
 
 echo "Senoko has been updated"
