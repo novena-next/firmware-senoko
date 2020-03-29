@@ -1,10 +1,10 @@
 Source: firmware-senoko
 Section: kernel
 Priority: optional
-Maintainer: Sean Cross <xobs@kosagi.com>
+Maintainer: Jookia <contact@jookia.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
-Homepage: http://kosagi.com/
+Homepage: https://github.com/novena-next/firmware-senoko
 
 Package: firmware-senoko
 Architecture: all
